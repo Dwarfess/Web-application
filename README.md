@@ -1,4 +1,5 @@
-# Web application. Functionality of the online store implementation using AngularJS.
+# Web application.
+Functionality of the online store implementation using AngularJS.
 
 ## Unauthorized users can:
    * View product list
