@@ -12,10 +12,12 @@
    * Switch between stock lists
    * View product information by clicking on the item
    * Correct product information ("Edit" button)
-   * delete the product from the list ("cross" icon near the product or the "Delete" button at the info window)
-   * create a new product (the "New" button at the main page)
-   * update the sctock list to the source state (the "Refresh" button at the main page)
+   * Delete the product from the list ("cross" icon near the product or the "Delete" button at the info window)
+   * Create a new product (the "New" button at the main page)
+   * Update the sctock list to the source state (the "Refresh" button at the main page)
 
-<hr>
 
-***(in case somebody trying to open product information, the authorization window appears)***
+
+
+
+*(in case somebody trying to open product information, the authorization window appears)*
