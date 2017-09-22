@@ -1,22 +1,21 @@
-# Приложение.
-## Реализация функционала интернет магазина на AngularJS.
+# Web application. Functionality of the online store implementation using AngularJS.
 
-### Не зарегистрированные пользователи могут:
-* ul Просматривать список товаров
-* Просматривать список товаров
-* Войти на сайт под своим логином\паролем, или же зарегистрироваться
+## Unauthorized users can:
+   * View product list
+   * Switch between stock lists
+   * Login/register to app to do more
  
 
 
-### Зарегистрированые пользователи могут:
-* Просматривать список товаров
-* Переключаться между списками товаром
-* Просматривать информацию о товаре по клику на товар
-* Корректировать информацию о товаре (кнопка "Edit")
-* Удалять товар из списка ("крестик" на товаре или кнопка "Delete" в окне информации
-* Создавать новый товар (кнопка "New" на главной странице)
-* Обновлять список товаром до начального состояния (кнопка "Refresh" на главной странице)
+## Authorized users can:
+   * View product list
+   * Switch between stock lists
+   * View product information by clicking on the item
+   * Correct product information ("Edit" button)
+   * Delete the product from the list ("cross" icon near the product or the "Delete" button at the info window)
+   * Create a new product (the "New" button at the main page)
+   * Update the sctock list to the source state (the "Refresh" button at the main page)
 
 <hr>
 
-    **(в случае попытки открыть информацию о товаре, появиться окно авторизации)**
+***(в случае попытки открыть информацию о товаре, появиться окно авторизации)***
