@@ -1,0 +1,27 @@
+﻿
+<div class="panel-body">
+    <div class="form-group">
+        <label>Name:</label>
+        <input class="form-control" ng-model="currentItem.name" />
+    </div>
+    <div class="form-group">
+        <label>Price:</label>
+        <input class="form-control" ng-model="currentItem.price" />
+    </div>
+    <div class="form-group">
+        <label>Due_date:</label>
+        <input class="form-control" ng-model="currentItem.due_date" />
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <textarea class="form-control" ng-model="currentItem.description">
+        </textarea>
+    </div>
+    <div class="form-group">
+        <label>Image:</label>
+        <input class="form-control" ng-model="currentItem.image" />
+    </div>
+
+    <button class="btn btn-primary" ng-click="saveEdit(currentItem)">Save</button> 
+    <button class="btn btn-primary" ng-click="cancelEdit(null, 'edit')">Cancel</button>
+</div>

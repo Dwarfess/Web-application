@@ -1,0 +1,30 @@
+﻿
+<div class="panel-body">
+    <div class = "itemInfo panel panel-primary">
+        <input class = "back" type="button" value = "⤾" ng-click = "back()">
+        <div>
+            <img src="{{info.image}}">
+        </div>
+            
+        <div>
+            <h4>{{info.name}}</h4>
+            <h5>Цена: <span>{{info.price}}</span></h5>
+            <h5>Описание:</h5>
+            <p>{{info.description}}</p>
+            
+            
+            <div>
+                <h5>Срок: {{info.due_date| date:"MM.dd.yyyy"}}</h5>
+                <button class="btn btn-sm btn-primary" ng-click="editOrCreate(info, 'info')">
+                    Edit
+                </button>
+                <button class="btn btn-sm btn-primary" ng-click="delete(info)">
+                    Delete
+                </button>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>

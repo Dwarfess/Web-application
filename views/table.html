@@ -1,0 +1,17 @@
+﻿
+<div class="panel-body">
+    <h3>{{items[0].group}}</h3>
+    <div class="group">
+        <div class="item panel panel-warning"  ng-repeat="item in items" ng-click = "show(item)">
+            <input type="button" class = "btn" value = "✖" ng-hide = "online.logged" ng-click = "delete(item)">
+            <p>{{item.name}}</p>
+            <p>{{item.price}}</p>
+            <p>Due-date: <span>{{item.due_date| date:"MM.dd.yyyy"}}</span></p>
+        </div>
+    </div>
+
+    <div ng-hide = "online.logged">
+        <button class="btn-lg btn-primary" ng-click="refresh()">Refresh</button>
+        <button class="btn-lg btn-primary" ng-click="editOrCreate(null, 'table')">New</button>
+    </div>
+</div>
