@@ -18,5 +18,5 @@ Functionality of the online store implementation using AngularJS
    * Update the sctock list to the source state (the "Refresh" button at the main page)
 
 
-========================================================================================
+====================================================================
 *(in case somebody trying to open product information, the authorization window appears)*
