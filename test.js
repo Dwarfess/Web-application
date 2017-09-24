@@ -23,27 +23,4 @@ describe("Test", function () {
         mockScope.showForms(true);
         expect(mockScope.bg).toEqual(true);
     });
-	
-	
-	beforeEach(angular.mock.inject(function ($controller, $rootScope, $http) {
-        mockScope = $rootScope.$new();
-        $controller("ctrl", {
-            $scope: mockScope,
-            $http: $http
-        });
-    }));
-	
-	it("data processing", function () {
-		mockScope.refresh();
-        expect(mockScope.json).toBeDefined();
-        expect(mockScope.json.length).toEqual(3);
-    });
-	
-	it("check value some properties", function (){
-		mockScope.refresh();
-        expect(mockScope.json[0][0].id).toEqual(28897);
-        expect(mockScope.json[1][1].name).toEqual("LG 24LH480U");
-        expect(mockScope.json[2][2].price).toEqual("870$");
-    });
-
 });
