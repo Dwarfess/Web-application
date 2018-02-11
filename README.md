@@ -8,7 +8,7 @@ Functionality of the online store implementation using AngularJS
 ```
  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
-4. Go to the application folder
+4. Move to the application folder
 ```
  cd task manager
 ```
