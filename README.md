@@ -20,8 +20,8 @@ Functionality of the online store implementation using AngularJS
 
 **(to run the application on your computer must be running MongoDB. Detailed description of the installation of the mongoDB [here]:https://metanit.com/nosql/mongodb/1.2.php )**
 
-http://example.com 
-[example.com](http://example.com)
+
+[here](http://example.com)
 
 ## Unauthorized users can
    * View product list
