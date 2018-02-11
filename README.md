@@ -18,10 +18,8 @@ Functionality of the online store implementation using AngularJS
 ```
 6. To stop the application, press CTRL+C
 
-**(to run the application on your computer must be running MongoDB. Detailed description of the installation of the mongoDB [here]:https://metanit.com/nosql/mongodb/1.2.php )**
+**ATTENTION: In order to run the application on your computer, you must first be running MongoDB. Detailed description of the installation of the mongoDB [here](https://metanit.com/nosql/mongodb/1.2.php)**
 
-
-[here](http://example.com)
 
 ## Unauthorized users can
    * View product list
