@@ -17,6 +17,7 @@ Functionality of the online store implementation using AngularJS
  node backend.js
 ```
 6. To stop the application, press CTRL+C
+[example site]
 [example site]:http://example.com
 **(to run the application on your computer must be running MongoDB. Detailed description of the installation of the mongoDB [here]:https://metanit.com/nosql/mongodb/1.2.php )**
 
