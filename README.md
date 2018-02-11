@@ -2,7 +2,7 @@
 Functionality of the online store implementation using AngularJS
 
 ## Download & Get started
-**1.** Open Git Bash.
+1. Open Git Bash.
 2. Change the current working directory to the location where you want the cloned directory to be made.
 3. Type git clone, and then paste the URL:
 ```
@@ -18,17 +18,18 @@ Functionality of the online store implementation using AngularJS
 ```
 6. To stop the application, press CTRL+C
 
-**ATTENTION: In order to run the application on your computer, you must first be running MongoDB. Detailed description of the installation of the mongoDB you can find [here](https://metanit.com/nosql/mongodb/1.2.php)**
 
+**ATTENTION: In order to launch the application on your computer, you must first be running MongoDB. Detailed description of the installation of the mongoDB you can find [here](https://metanit.com/nosql/mongodb/1.2.php)**
 
-## Unauthorized users can
+## Brief description of application operation
+### Unauthorized users can
    * View product list
    * Switch between stock lists
    * Login/register to app to do more
  
 
 
-## Authorized users can
+### Authorized users can
    * View product list
    * Switch between stock lists
    * View product information by clicking on the item
