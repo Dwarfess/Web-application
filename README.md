@@ -1,6 +1,9 @@
 # Web application
 Functionality of the online store implementation using AngularJS
 
+##Download & get started
+1. Open Git Bash
+
 ## Unauthorized users can
    * View product list
    * Switch between stock lists
