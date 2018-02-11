@@ -1,8 +1,21 @@
 # Web application
 Functionality of the online store implementation using AngularJS
 
-## Download & get started
-1. Open Git Bash
+## Download & Get started
+1. Open Git Bash.
+2. Change the current working directory to the location where you want the cloned directory to be made.
+3. Type git clone, and then paste the URL:
+```
+$\ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+4. ```
+$\ cd task manager
+```
+5. ```
+$\ node backend.js
+```
+** (to run the application on your computer must be running MongoDB. Detailed description of the installation of the mongoDB [here]:https://metanit.com/nosql/mongodb/1.2.php) **
+
 
 ## Unauthorized users can
    * View product list
